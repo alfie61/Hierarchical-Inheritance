@@ -1,0 +1,15 @@
+class university{  
+void college(){System.out.println("Engineering College");}  
+}  
+class students extends university{  
+void id(){System.out.println("0001");}  
+} 
+class department extends university{  
+void dept(){System.out.println("CSE");}  
+}   
+public class Main{  
+public static void main(String args[]){  
+students c=new students(); 
+c.id();  
+c.college();  
+}}  
